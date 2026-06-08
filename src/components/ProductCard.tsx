@@ -16,6 +16,7 @@ export default function ProductCard({ product, onAddToQuote, isInQuoteList, onOp
   const [showSpecInput, setShowSpecInput] = useState<boolean>(false);
   const [addedAnimation, setAddedAnimation] = useState<boolean>(false);
   const [imageError, setImageError] = useState<boolean>(false);
+  const [isZoomed, setIsZoomed] = useState<boolean>(false);
 
   const handleAddClick = () => {
     onAddToQuote(product, quantity, customSpec);
@@ -296,7 +297,8 @@ export default function ProductCard({ product, onAddToQuote, isInQuoteList, onOp
               src={product.imageSrc}
               alt={product.name}
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover transition-all duration-305 group-hover:scale-105"
+              className="w-full h-full object-contain transition-all duration-305 group-hover:scale-105 cursor-zoom-in"
+              onClick={() => setIsZoomed(true)}
               onError={() => setImageError(true)}
             />
           ) : (
@@ -304,6 +306,35 @@ export default function ProductCard({ product, onAddToQuote, isInQuoteList, onOp
           )}
         </div>
       </div>
+
+      {/* Enlarged modal image preview overlay */}
+      {isZoomed && product.imageSrc && !imageError && (
+        <div 
+          className="fixed inset-0 bg-black/85 backdrop-blur-xs z-[9999] flex items-center justify-center p-4 cursor-zoom-out"
+          onClick={() => setIsZoomed(false)}
+        >
+          <div className="relative max-w-5xl max-h-[95vh] w-full h-full flex items-center justify-center">
+            <button 
+              type="button"
+              className="absolute top-4 right-4 text-white hover:text-[#F59E0B] bg-black/35 hover:bg-black/60 p-2.5 rounded-full transition-colors cursor-pointer"
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsZoomed(false);
+              }}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <img 
+              src={product.imageSrc} 
+              alt={product.name} 
+              className="max-w-full max-h-full object-contain shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
 
       {/* Product Information Body */}
       <div className="p-5 flex-grow flex flex-col">

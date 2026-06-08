@@ -304,9 +304,7 @@ export const GALLERY_ITEMS = [
   }
 ];
 
-export const PRODUCTS: Product[] = [
-  // --- Category 1: Paddy Husker & Rubber Rolls ---
-  {
+export const PRODUCTS: Product[] = [{
     id: 'p1_1',
     name: 'Alaska Premium Rubber Roll',
     category: 'Paddy Husker & Rubber Rolls',
@@ -321,9 +319,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Heat dissipation thermal grooves', 'Uniform wearing rate', 'Strict alignment balance'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
+
+    imageSrc: '/extracted_rubber_roll_rubber_roll.png'
   },
-  {
+{
     id: 'p1_2',
     name: 'Duraflex Stone Polisher',
     category: 'Paddy Husker & Rubber Rolls',
@@ -337,9 +336,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High durability adhesive matrix', 'Cool cutting performance', 'Reduced grain breakage'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
+
+    imageSrc: '/extracted_duraflex_stone_polisher_rubber_polisher.png'
   },
-  {
+{
     id: 'p1_3',
     name: 'Husker Coupling - Taper Lock Type',
     category: 'Paddy Husker & Rubber Rolls',
@@ -352,9 +352,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['No slip transmission', 'Fast swap-out mechanics', 'High vibration damping'],
     imagePlaceholderType: 'coupling',
-    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
+
+    imageSrc: '/extracted_husker_coupling__tapper_lock_type.png'
   },
-  {
+{
     id: 'p1_4',
     name: 'Satake Husker Coupling',
     category: 'Paddy Husker & Rubber Rolls',
@@ -368,9 +369,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Corrosion resistant oxide coat', 'Wear-resistant rubber sleeve', 'Zero-backlash transmission'],
     imagePlaceholderType: 'coupling',
-    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
+
+    imageSrc: '/extracted_huskar_coupling_for.png'
   },
-  {
+{
     id: 'p1_5',
     name: 'Rubber Polisher Roll',
     category: 'Paddy Husker & Rubber Rolls',
@@ -383,11 +385,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Food-grade safe contact surface', 'Excellent abrasion index', 'High shear strength'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/714611813_18086253857132248_5004907016099275317_n.webp'
-  },
 
-  // --- Category 2: Whitener Spare Parts ---
-  {
+    imageSrc: '/extracted_rubber_roll_rubber_roll.png'
+  },
+{
     id: 'p2_1',
     name: 'Whitening Abrasive Rollers',
     category: 'Whitener Spare Parts',
@@ -400,9 +401,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Uniform wear behavior', 'Optimal bran purging', 'Extremely long service hours'],
     imagePlaceholderType: 'milling',
-    imageSrc: '/714631388_18086207921132248_1106884222181958759_n.webp'
+
+    imageSrc: '/extracted_whitening__abrasive_rollers.png'
   },
-  {
+{
     id: 'p2_2',
     name: 'Rice Whitener Screens (Jalli for VT 5 / 10 / 15)',
     category: 'Whitener Spare Parts',
@@ -414,9 +416,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High wear resistance to silica abrasive sand', 'Smooth interior laser cut finishing', 'Optimal elasticity to resist cracking'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/714652327_18086206400132248_4431060123985964341_n.webp'
+
+    imageSrc: '/extracted_rice_whitener_screens.png'
   },
-  {
+{
     id: 'p2_3',
     name: 'Whitener Star Plates',
     category: 'Whitener Spare Parts',
@@ -428,9 +431,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Prevents grain congestion at intake', 'Interchangeable wear sleeves', 'High impact resistance'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp'
+
+    imageSrc: '/extracted_whitener_star_plate.png'
   },
-  {
+{
     id: 'p2_4',
     name: 'Feed Screw for Buhler BSPB Model',
     category: 'Whitener Spare Parts',
@@ -443,9 +447,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Optimized pitch to match OEM throughput rates', 'Extreme wear life', 'Anti-clogging surface finish'],
     imagePlaceholderType: 'feeder',
-    imageSrc: '/714764709_18086251382132248_4545780746401942809_n.webp'
+
+    imageSrc: '/extracted_feed_screw_for_buhlar_bspb_model.png'
   },
-  {
+{
     id: 'p2_5',
     name: 'Feed Screw for VT 10 (With Inner Hub)',
     category: 'Whitener Spare Parts',
@@ -457,9 +462,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Quick interlocking keys', 'Reduced shear force design', 'High volumetric efficiency'],
     imagePlaceholderType: 'feeder',
-    imageSrc: '/714766092_18086238707132248_1796983234248357446_n.webp'
+
+    imageSrc: '/extracted_feed_screw_for__vt_10_with_inner-hub_buh.png'
   },
-  {
+{
     id: 'p2_6',
     name: 'Whitener Cylinder Of Inner Ring / Outer Ring',
     category: 'Whitener Spare Parts',
@@ -470,9 +476,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Absolutely steady spin alignment', 'Quick installation tracks', 'Vibration buffering ring setup'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/714966076_18086242589132248_4445032510538859744_n.webp'
+
+    imageSrc: '/extracted_whitener_cylender_of__inner_ring__outer_.png'
   },
-  {
+{
     id: 'p2_7',
     name: 'Whitener Main Shafts',
     category: 'Whitener Spare Parts',
@@ -484,9 +491,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Keyways for steady pulley lock', 'Ultrasonic deflection tested', 'Exceptional fatigue limits'],
     imagePlaceholderType: 'shaft',
-    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp'
+
+    imageSrc: '/extracted_whitener_main_shaft.png'
   },
-  {
+{
     id: 'p2_8',
     name: 'Feed Screw Six Stone Whitener',
     category: 'Whitener Spare Parts',
@@ -497,11 +505,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Maximized volumetric feed rate', 'Coated with wear-retardant alloy spray'],
     imagePlaceholderType: 'feeder',
-    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp'
-  },
 
-  // --- Category 3: Silky Spare Parts ---
-  {
+    imageSrc: '/extracted_feed_screw__six_stone_whitener.png'
+  },
+{
     id: 'p3_1',
     name: 'Buhler Milltec Silky Milling Roll',
     category: 'Silky Spare Parts',
@@ -514,9 +521,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Anti-frictional micro grooves', 'No head-rise operation', 'Exceptional hygienic food safety ratings'],
     imagePlaceholderType: 'milling',
-    imageSrc: '/715346786_18086243819132248_1516330382294424778_n.webp'
+
+    imageSrc: '/extracted_buhler_silky_milling_roll.png'
   },
-  {
+{
     id: 'p3_2',
     name: 'Milling Roll DRPA 30 HP',
     category: 'Silky Spare Parts',
@@ -528,9 +536,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Withstands massive torsional shocks', 'Optimum water spray distribution integration'],
     imagePlaceholderType: 'milling',
-    imageSrc: '/715360253_18086240045132248_2967046960812069827_n.webp'
+
+    imageSrc: '/extracted_milling_rolls.png'
   },
-  {
+{
     id: 'p3_3',
     name: 'Polishing Silky Screens (Jali)',
     category: 'Silky Spare Parts',
@@ -542,9 +551,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Absolutely burr-free surfaces to avoid grain damage', 'Resilient under highly humid moist conditions'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp'
+
+    imageSrc: '/extracted_milling_rolls__polishing_silky_screens.png'
   },
-  {
+{
     id: 'p3_4',
     name: 'Buhlar Silky Nozzle with Pipe',
     category: 'Silky Spare Parts',
@@ -557,9 +567,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Prevents spot wetting', 'Non-clogging internal swirl vanes', 'Easy quick-clean build'],
     imagePlaceholderType: 'nozzle',
-    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp'
+
+    imageSrc: '/extracted_kb_40_milling_roll_kb_40_silky_nozzle.png'
   },
-  {
+{
     id: 'p3_5',
     name: 'KB 40 Jalli Frame & Sleeve',
     category: 'Silky Spare Parts',
@@ -571,9 +582,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Friction-lock assembly tabs', 'Quick-change design simplifies maintenance'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp'
+
+    imageSrc: '/extracted_kb_40_60_jalli_frame.png'
   },
-  {
+{
     id: 'p3_6',
     name: 'Main Front Housing for Silky',
     category: 'Silky Spare Parts',
@@ -584,11 +596,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Water-tight seal alignment', 'Heavy load bearing seating ground'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp'
-  },
 
-  // --- Category 4: Elevator Spare Parts ---
-  {
+    imageSrc: '/extracted_main_front_housing.png'
+  },
+{
     id: 'p4_1',
     name: 'Elevator Buckets (Steel & PVC Varieties)',
     category: 'Elevator Spare Parts',
@@ -600,9 +611,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Ultra smooth inner radius prevents grain trapping', 'Heavy structural rimming to resist deflection'],
     imagePlaceholderType: 'bucket',
-    imageSrc: '/715690867_18086213531132248_2197127978845901709_n.webp'
+
+    imageSrc: '/extracted_buckets_belt.png'
   },
-  {
+{
     id: 'p4_2',
     name: 'Premium Nylon Cotton Belts',
     category: 'Elevator Spare Parts',
@@ -614,9 +626,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Minimal elongation stretching', 'High bolt holding strength', 'Optimal flexibility over small pulleys'],
     imagePlaceholderType: 'bucket',
-    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp'
+
+    imageSrc: '/extracted_nylon_belts_automatic_pneumatic.png'
   },
-  {
+{
     id: 'p4_3',
     name: 'Garlon Premium Cotton Sewing Threads',
     category: 'Elevator Spare Parts',
@@ -629,9 +642,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Knot-free uniform thread diameter', 'Smooth flow through sewing needles without linting'],
     imagePlaceholderType: 'bucket',
-    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp'
+
+    imageSrc: '/extracted_cotton_thread_magnet.png'
   },
-  {
+{
     id: 'p4_4',
     name: 'Elevator Bucket Bolts (T-head Type)',
     category: 'Elevator Spare Parts',
@@ -643,9 +657,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Anti-spinning dual-fang design', 'Extra flat head contours prevents belt wear'],
     imagePlaceholderType: 'coupling',
-    imageSrc: '/716070211_18086421227132248_7893448937556899977_n.webp'
+
+    imageSrc: '/extracted_elevator_buckets_bolts.png'
   },
-  {
+{
     id: 'p4_5',
     name: 'High Intensity Tube & Plate Magnets',
     category: 'Elevator Spare Parts',
@@ -657,9 +672,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Exceptional magnetic pulling radius', 'Easy self-slide clean mechanics', 'No power backup required'],
     imagePlaceholderType: 'magnet',
-    imageSrc: '/716250798_18086421647132248_3479688236136570166_n.webp'
+
+    imageSrc: '/extracted_cotton_thread_magnet.png'
   },
-  {
+{
     id: 'p4_6',
     name: 'Dynamically Balanced Husker Ampellor',
     category: 'Elevator Spare Parts',
@@ -670,11 +686,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Low power consumption', 'Minimal aerodynamic noise', 'Egress wear shield plating'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/716270731_18086417684132248_4231479742704651945_n.webp'
-  },
 
-  // --- Category 5: Laboratory Equipment ---
-  {
+    imageSrc: '/extracted_hand-magnets_husker-ampellor.png'
+  },
+{
     id: 'p5_1',
     name: 'Precision Lab Aspirator',
     category: 'Laboratory Equipment',
@@ -686,9 +701,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Accurate separation replication', 'Desktop compact operational footprint'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/716310329_18086418632132248_6756830579720608276_n.webp'
+
+    imageSrc: '/extracted_lab-aspirator_lab-drier.png'
   },
-  {
+{
     id: 'p5_2',
     name: 'High capacity Lab Drier',
     category: 'Laboratory Equipment',
@@ -699,9 +715,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Uniform hot air flow matrix', 'Prevents grain thermal shock cracking'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/logo.jpg'
+
+    imageSrc: '/extracted_lab-aspirator_lab-drier.png'
   },
-  {
+{
     id: 'p5_3',
     name: 'Riffle Type Lab Divider',
     category: 'Laboratory Equipment',
@@ -713,9 +730,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Zero static dust trap corners', 'Complying fully with ISTA grain standards'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
+
+    imageSrc: '/extracted_lab-divider_satake_paddy_table.png'
   },
-  {
+{
     id: 'p5_4',
     name: 'Laboratory Rice Husker & Polisher Set',
     category: 'Laboratory Equipment',
@@ -727,9 +745,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Accurate dial adjustment for roll pressure', 'Tough noise-insulated composite cabinet'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
+
+    imageSrc: '/extracted_lab-husker_lab-polisher_breaker-flat-typ.png'
   },
-  {
+{
     id: 'p5_5',
     name: 'Lab Grader with Indent Cylinder',
     category: 'Laboratory Equipment',
@@ -740,11 +759,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Perfect separation profiling', 'Highly visual separation process'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
-  },
 
-  // --- Category 6: Additional Components ---
-  {
+    imageSrc: '/extracted_lab-grader_with.png'
+  },
+{
     id: 'p6_1',
     name: 'Heavy Duty Rotary Air Lock',
     category: 'Additional Components',
@@ -756,9 +774,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Absolutely minimal blower air loss', 'Vane adjustments are swift and straightforward', 'Direct gear-box coupled mountings'],
     imagePlaceholderType: 'valve',
-    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
+
+    imageSrc: '/extracted_air-lock.png'
   },
-  {
+{
     id: 'p6_2',
     name: 'Revo Heavy Bag Closer Machine',
     category: 'Additional Components',
@@ -771,9 +790,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Extremely study cast alloy frame', 'Integrated safe mechanical thread cutter'],
     imagePlaceholderType: 'machine',
-    imageSrc: '/714611813_18086253857132248_5004907016099275317_n.webp'
+
+    imageSrc: '/extracted_machine_revo_bag__closer_machine.png'
   },
-  {
+{
     id: 'p6_3',
     name: 'SS Pneumatic Slide Gate',
     category: 'Additional Components',
@@ -785,9 +805,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Quick 0.5 second open/close timing', 'Slide blade guide bearings prevent jams'],
     imagePlaceholderType: 'valve',
-    imageSrc: '/714631388_18086207921132248_1106884222181958759_n.webp'
+
+    imageSrc: '/extracted_ss_pneumatic_slide_gate.png'
   },
-  {
+{
     id: 'p6_4',
     name: 'Paddy Separator Distribution Box',
     category: 'Additional Components',
@@ -798,9 +819,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Eliminates unbalanced channel congestion', 'Extends separator screen lifespans'],
     imagePlaceholderType: 'default',
-    imageSrc: '/714652327_18086206400132248_4431060123985964341_n.webp'
+    imageSrc: '/extracted_paddy_seprator__distribution_box.png'
   },
-  {
+{
     id: 'p6_5',
     name: 'Nylon S Pocket for Buhlar Sizer',
     category: 'Additional Components',
@@ -812,9 +833,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Resistant to thermal flex', 'Simple snap-in fit mechanism'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp'
+
+    imageSrc: '/extracted_nylon_s_pocket__for_buhlar_sizer.png'
   },
-  {
+{
     id: 'p6_6',
     name: 'Traditional Sampling Parkhi (SS Tip)',
     category: 'Additional Components',
@@ -825,9 +847,10 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Sharp penetrative chrome tip', 'Easy grain dump ports'],
     imagePlaceholderType: 'shaft',
-    imageSrc: '/714764709_18086251382132248_4545780746401942809_n.webp'
+
+    imageSrc: '/extracted_parkhi_kb_40_housing.png'
   },
-  {
+{
     id: 'p3_7',
     name: 'Ajanta Silky Water Meter',
     category: 'Silky Spare Parts',
@@ -840,9 +863,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High Precision Needle Valve Control', 'Vibrant float dial meter for instant visibility', 'Special anti-rust coating for high moisture regions'],
     imagePlaceholderType: 'nozzle',
-    imageSrc: '/714766092_18086238707132248_1796983234248357446_n.webp'
+    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp'
   },
-  {
+{
     id: 'p6_7',
     name: 'Rotary Airlock Valve',
     category: 'Additional Components',
@@ -855,9 +878,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Minimizes blowback air leakages', 'Interchangeable heat-resistant neoprene blade tips', 'Direct-drive reduction gear transmission'],
     imagePlaceholderType: 'valve',
-    imageSrc: '/714966076_18086242589132248_4445032510538859744_n.webp'
+    imageSrc: '/extracted_air-lock.png'
   },
-  {
+{
     id: 'p3_8',
     name: 'High-Atomization Silky Nozzle',
     category: 'Silky Spare Parts',
@@ -869,9 +892,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Guards against rice spot-wetting & clumping', 'Internal swirl vane prevents sediment clogging', 'Instant quick-clean thread disassembly'],
     imagePlaceholderType: 'nozzle',
-    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp'
+    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp'
   },
-  {
+{
     id: 'p1_6',
     name: 'Airlock Rubber Sleeves',
     category: 'Paddy Husker & Rubber Rolls',
@@ -883,9 +906,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Prevents conveying line vacuum leaks', 'Strict resistance to environmental ozone and cracks', 'Fast clamp-on snap fit'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp'
+    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp'
   },
-  {
+{
     id: 'p3_9',
     name: 'Screw Case Silky',
     category: 'Silky Spare Parts',
@@ -897,9 +920,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Dampens dynamic vibration during high velocity conveying', 'Precision inner diameter prevents grain entrapment', 'Withstands extended continuous running hours'],
     imagePlaceholderType: 'feeder',
-    imageSrc: '/715346786_18086243819132248_1516330382294424778_n.webp'
+    imageSrc: '/extracted_silky-hosing.png'
   },
-  {
+{
     id: 'p6_8',
     name: 'Wooden Frame Rice Cleaner Screen',
     category: 'Additional Components',
@@ -911,9 +934,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High filtration efficiency with minimal mesh clogging', 'Wooden border absorbs rhythmic shaker vibrations', 'High tension assembly guards grid flatness'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/715360253_18086240045132248_2967046960812069827_n.webp'
+    imageSrc: '/extracted_ball_frame.png'
   },
-  {
+{
     id: 'p6_9',
     name: 'Industrial Reddler Chain',
     category: 'Additional Components',
@@ -925,9 +948,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High-tensile joint pins resist stretch fatigue', 'Smooth scraper motion protects channel corners', 'Anti-corrosive finish for reliable outdoor runs'],
     imagePlaceholderType: 'coupling',
-    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp'
+    imageSrc: '/extracted_chain_couplinh.png'
   },
-  {
+{
     id: 'p6_10',
     name: 'Paddy Separator Leg',
     category: 'Additional Components',
@@ -939,9 +962,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Dramatically minimizes structural building vibrations', 'Ensures perfect, level alignment of separation screen tables', 'Reduces mechanical stress wear on machine brackets'],
     imagePlaceholderType: 'default',
-    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp'
+    imageSrc: '/extracted_paddy_seprator.png'
   },
-  {
+{
     id: 'p5_6',
     name: 'Digital Grain Moisture Meter',
     category: 'Laboratory Equipment',
@@ -953,9 +976,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Secures 100% instant moisture verification', 'User friendly multi-grain preset selectors', 'Unmatched sensor accuracy of +/- 0.5%'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp'
+    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
   },
-  {
+{
     id: 'p6_11',
     name: 'Perforated Sizing Grader Screen',
     category: 'Additional Components',
@@ -967,9 +990,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Uniform perforation guarantees calibration consistency', 'Seamless, burr-free borders protect polished grain', 'Friction-free slip finish increases sieve output'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp'
+    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
   },
-  {
+{
     id: 'p2_9',
     name: 'Whitener Screen Breaker',
     category: 'Whitener Spare Parts',
@@ -981,9 +1004,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Extends expensive whitener screen mesh lifespans', 'Improves milling efficiency through steady feeds', 'Extremely resilient wear-resistant alloy structure'],
     imagePlaceholderType: 'shaft',
-    imageSrc: '/715690867_18086213531132248_2197127978845901709_n.webp'
+    imageSrc: '/extracted_buhler_whitener.png'
   },
-  {
+{
     id: 'p6_12',
     name: 'Automatic Pneumatic Sliding Gate',
     category: 'Additional Components',
@@ -995,9 +1018,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Smart automation ready for clean remote integration', 'Ultra-durable casing resists heavy gravity loads', '0.5-second fast slider movement prevents flow congestion'],
     imagePlaceholderType: 'valve',
-    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp'
+    imageSrc: '/extracted_ss_pneumatic_slide_gate.png'
   },
-  {
+{
     id: 'p6_13',
     name: 'LPI Premium Bag Closing Machine',
     category: 'Additional Components',
@@ -1009,9 +1032,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Perfect, leak-proof packaging sutures', 'Automatic mechanical thread chain-cutter', 'Lightweight alloy housing reduces handler fatigue'],
     imagePlaceholderType: 'machine',
-    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp'
+    imageSrc: '/extracted_lpi_bag_closer.png'
   },
-  {
+{
     id: 'p6_14',
     name: 'Digital Vibration Controller',
     category: 'Additional Components',
@@ -1023,9 +1046,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Shields delicate screen frameworks from over-flex damage', 'Guarantees uniform separation across entire sizer grids', 'Significantly scales up hourly separator throughput'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/716070211_18086421227132248_7893448937556899977_n.webp'
+    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp'
   },
-  {
+{
     id: 'p2_10',
     name: 'Whitener Destoner Screen',
     category: 'Whitener Spare Parts',
@@ -1037,9 +1060,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Eliminates abrasive mineral pebbles from flow line', 'Sturdy framework absorbs recurring dynamic shocks', 'Easy slide-in replacements reduce plant downtime'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/716250798_18086421647132248_3479688236136570166_n.webp'
+    imageSrc: '/extracted_d-stoner-jalli.png'
   },
-  {
+{
     id: 'p2_11',
     name: 'Manganese-steel Whitener Breaker',
     category: 'Whitener Spare Parts',
@@ -1050,9 +1073,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Achieves uniform grain fracture index', 'Significantly lowers energy consumption of whiteners', 'Prevents accidental friction head-rise inside chamber'],
     imagePlaceholderType: 'shaft',
-    imageSrc: '/716270731_18086417684132248_4231479742704651945_n.webp'
+    imageSrc: '/extracted_breaker-vt-10-vt-15.png'
   },
-  {
+{
     id: 'p3_10',
     name: 'Vented Stainless Silky Screen',
     category: 'Silky Spare Parts',
@@ -1064,9 +1087,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Extends polishing screen life under moist zones', 'Absolutely smooth, burr-free inner channels prevent grain broken ratios'],
     imagePlaceholderType: 'screen',
-    imageSrc: '/716310329_18086418632132248_6756830579720608276_n.webp'
+    imageSrc: '/extracted_buhlar_silky_milltech.png'
   },
-  {
+{
     id: 'p2_12',
     name: 'Whitener Abrasive Stones',
     category: 'Whitener Spare Parts',
@@ -1078,9 +1101,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Highly balanced structure prevents machine vibrations', 'Exceptional self-sharpening properties raise peeling rate', 'Extremely resilient wear limits for massive cumulative tonnage'],
     imagePlaceholderType: 'milling',
-    imageSrc: '/logo.jpg'
+    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp'
   },
-  {
+{
     id: 'p5_7',
     name: 'Mini Paddy Cleaner & Cyclone',
     category: 'Laboratory Equipment',
@@ -1092,9 +1115,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Ensures clean, standardized lab grain batches before tests', 'Dust-free closed recycling structure saves environment', 'Extremely quiet, simple maintenance operation'],
     imagePlaceholderType: 'lab-equipment',
-    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
+    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp'
   },
-  {
+{
     id: 'p2_13',
     name: 'Whitener Star Plate',
     category: 'Whitener Spare Parts',
@@ -1106,9 +1129,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Uniform distribution eliminates chute blockage risks', 'Superb resistance against abrasive sand scraping', 'Concentric balance saves rotor bearing life'],
     imagePlaceholderType: 'ring',
-    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
+    imageSrc: '/extracted_whitener_star_plate.png'
   },
-  {
+{
     id: 'p6_15',
     name: 'Rubber Inspection Caps',
     category: 'Additional Components',
@@ -1120,9 +1143,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Tight-fitting rim prevents material blowouts', 'Resilient under chemical, thermal, and oil contacts', 'Fast snap-fit manual pull-tabs simplify lookups'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
+    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp'
   },
-  {
+{
     id: 'p6_16',
     name: 'Anti-Vibration Machinery Mounts',
     category: 'Additional Components',
@@ -1134,9 +1157,9 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Isolates dynamic shocks from concrete floors and rails', 'Increases mechanical life of supporting bolts and frames', 'Dampens noise yields for safe operator surroundings'],
     imagePlaceholderType: 'roll',
-    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
+    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp'
   },
-  {
+{
     id: 'p6_17',
     name: 'Anti-leak rubber De-Stoner Sleeve',
     category: 'Additional Components',
@@ -1148,5 +1171,6 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Assures continuous 100% air-tight de-stoner pressure levels', 'Highly flexible elongation resists dust wear scraper fatigue', 'Uniform sealing saves de-stoning fans power consumption'],
     imagePlaceholderType: 'roll'
-  }
-];
+  ,
+    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp'
+  }];
