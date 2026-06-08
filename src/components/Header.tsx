@@ -17,7 +17,6 @@ export default function Header({ activePage, setActivePage, cartItems, setIsCart
     { id: 'about', label: 'About Us' },
     { id: 'products', label: 'Products' },
     { id: 'dealers', label: 'Brands & Dealerships' },
-    { id: 'gallery', label: 'Product Gallery' },
     { id: 'contact', label: 'Contact Us' },
   ];
 
@@ -62,56 +61,8 @@ export default function Header({ activePage, setActivePage, cartItems, setIsCart
           className="flex items-center gap-3 cursor-pointer group"
           onClick={() => handleNavClick('home')}
         >
-          {/* Custom SVG logo mimicking the actual logo */}
-          <div className="relative w-12 h-12 flex-shrink-0">
-            <svg 
-              viewBox="0 0 100 100" 
-              className="w-full h-full transform transition-transform group-hover:scale-105 duration-300"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {/* Outer orbit ring (primary green) */}
-              <circle cx="50" cy="50" r="42" fill="none" stroke="#0F3B36" strokeWidth="3" strokeDasharray="160 100" className="opacity-20" />
-              <path 
-                d="M 12,50 C 12,25 35,12 50,12 C 75,12 88,38 88,50" 
-                fill="none" 
-                stroke="#0F3B36" 
-                strokeWidth="4" 
-                strokeLinecap="round" 
-              />
-              {/* Lower Orange Sweep */}
-              <path 
-                d="M 88,50 C 88,75 62,88 50,88 C 25,88 12,65 12,50" 
-                fill="none" 
-                stroke="#F59E0B" 
-                strokeWidth="4" 
-                strokeLinecap="round"
-              />
-              {/* The Styled "A" character */}
-              <path 
-                d="M 32,74 L 50,22 L 68,74" 
-                fill="none" 
-                stroke="#0F3B36" 
-                strokeWidth="9" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-              />
-              {/* Orange Crossbar curved sweep */}
-              <path 
-                d="M 33,56 C 42,50 58,50 67,56" 
-                fill="none" 
-                stroke="#F59E0B" 
-                strokeWidth="6" 
-                strokeLinecap="round" 
-              />
-            </svg>
-          </div>
-          <div className="flex flex-col">
-            <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-[#0F3B36] font-display uppercase leading-none">
-              Ajanta
-            </h1>
-            <span className="text-[9px] sm:text-[10px] font-semibold text-[#1B5E4A] uppercase tracking-[0.25em] leading-normal border-t border-slate-100 pt-0.5 mt-0.5">
-              Enterprises
-            </span>
+          <div className="relative h-12 sm:h-16 flex-shrink-0 flex items-center">
+             <img src="/logo.jpg" alt="Logo" className="h-full w-auto object-contain transform transition-transform group-hover:scale-105 duration-300" />
           </div>
         </div>
 

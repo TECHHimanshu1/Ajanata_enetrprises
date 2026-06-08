@@ -29,7 +29,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
     {
       icon: Award,
       title: 'Competitive Pricing',
-      description: 'Direct manufacturer channels offer industrial clients optimal pricing matrices.',
+      description: 'Direct manufacturer channels offer clients optimal pricing matrices.',
     },
     {
       icon: Truck,
@@ -119,7 +119,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
             
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#1B5E4A]/45 hover:bg-[#1B5E4A]/60 border border-emerald-55/20 rounded-full text-xs font-semibold text-[#F59E0B] tracking-wider uppercase select-none">
               <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
-              ESTABLISHED 1998 • India's B2B Quality Leader
+              ESTABLISHED 1998 • India's Quality Leader
             </div>
             
             <h2 className="text-4xl sm:text-6xl lg:text-7.5xl font-bold tracking-tight font-display leading-[1.05] text-white">
@@ -274,7 +274,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
               Why Elite Rice Mills Partner with Us
             </h3>
             <p className="text-sm text-slate-500 font-sans max-w-xl mx-auto">
-              Through decades of industrial manufacturing experience and official dealerships, we secure uncompromised advantages for B2B procurement.
+              Through decades of industrial manufacturing experience and official dealerships, we secure uncompromised advantages for procurement.
             </p>
           </div>
 
@@ -399,7 +399,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
               Need Reliable Rice Mill Spare Parts Today?
             </h3>
             <p className="text-sm text-slate-200 font-sans font-light">
-              Don’t let machine breakdowns affect your processing capacity. Get custom sizing assistance and competitive B2B wholesale prices immediately.
+              Don’t let machine breakdowns affect your processing capacity. Get custom sizing assistance and competitive wholesale prices immediately.
             </p>
           </div>
 
@@ -411,7 +411,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
               }}
               className="bg-[#F59E0B] hover:bg-white hover:text-[#0F3B36] text-[#0F3B36] font-bold text-sm tracking-widest uppercase px-8 py-4 rounded-xl transition-all duration-300 shadow-md cursor-pointer"
             >
-              Request Custom B2B Quote Callback
+              Request Custom Quote Callback
             </button>
           </div>
         </div>

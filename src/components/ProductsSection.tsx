@@ -117,7 +117,7 @@ export default function ProductsSection({
       <section className="bg-slate-50 py-16 border-b border-slate-200/60 select-none">
         <div className="max-w-4xl mx-auto text-center space-y-4 px-4">
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#F59E0B] block font-mono">
-            INDUSTRIAL B2B CATALOG
+            INDUSTRIAL CATALOG
           </span>
           <h2 className="text-4xl sm:text-6xl font-semibold tracking-tight text-[#0F3B36] font-display">
             High Precision <span className="italic font-display font-light text-[#1B5E4A]">Milling Spares</span>

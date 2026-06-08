@@ -9,7 +9,7 @@ export default function DealersSection() {
       badge: '100% Genuine'
     },
     {
-      title: 'Wholesale B2B Cargo Sourcing',
+      title: 'Wholesale Cargo Sourcing',
       desc: 'We facilitate bulk consignments directly from the manufacturers to your mills across India, offering substantial cost advantages.',
       badge: 'Wholesale Pricing'
     },
@@ -32,7 +32,7 @@ export default function DealersSection() {
             Brands We Deal <span className="italic font-display font-light text-[#1B5E4A]">In</span>
           </h2>
           <p className="text-sm sm:text-base text-slate-500 max-w-xl mx-auto leading-relaxed font-sans font-light border-l-2 border-[#F59E0B] pl-4 text-left">
-            Ajanta Enterprises represents premium global-grade brands as authorized dealers or direct B2B partners, offering uncompromised manufacturing reliability.
+            Ajanta Enterprises represents premium global-grade brands as authorized dealers or direct partners, offering uncompromised manufacturing reliability.
           </p>
         </div>
       </section>

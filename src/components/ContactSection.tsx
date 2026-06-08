@@ -178,7 +178,7 @@ export default function ContactSection({ quickInquiryPartName, onClearQuickInqui
           {/* B. Validation Contact form */}
           <div className="lg:col-span-7 bg-white p-7 sm:p-9 rounded-none border border-slate-200 shadow-xs text-left">
             <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">
-              SECURE B2B FORM
+              SECURE FORM
             </span>
             <h3 className="text-2xl font-bold tracking-tight text-[#0F3B36] font-display mb-6">
               Request callback or pricing schedule

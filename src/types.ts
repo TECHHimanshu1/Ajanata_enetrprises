@@ -30,4 +30,4 @@ export interface ContactInquiry {
   message: string;
 }
 
-export type ActivePage = 'home' | 'about' | 'products' | 'dealers' | 'gallery' | 'contact';
+export type ActivePage = 'home' | 'about' | 'products' | 'dealers' | 'contact';

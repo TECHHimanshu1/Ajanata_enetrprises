@@ -9,7 +9,7 @@ export default function AboutSection() {
     },
     {
       icon: Compass,
-      title: 'Integrity in B2B Deals',
+      title: 'Integrity in Deals',
       desc: 'Transparent pricing matrices, direct manufacturer sourcing protocols, and zero hidden logistic charges make us a favored direct industrial partner.'
     },
     {
@@ -44,7 +44,7 @@ export default function AboutSection() {
             The Ajanta Enterprises <span className="italic font-display font-light text-[#1B5E4A]">Story</span>
           </h2>
           <p className="text-sm sm:text-base text-slate-500 max-w-xl mx-auto leading-relaxed font-sans font-light border-l-2 border-[#F59E0B] pl-4 text-left">
-            Providing critical, wear-resistant machinery spare parts, specialized laboratory equipment, and seamless B2B mechanical solutions for two and a half decades.
+            Providing critical, wear-resistant machinery spare parts, specialized laboratory equipment, and seamless mechanical solutions for two and a half decades.
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function AboutSection() {
               Official Dealer Badges:
             </span>
             <p className="text-xs text-slate-600 font-sans leading-normal">
-              Proud partners and authorized B2B distributors for industry-leading brands, including <strong>Alaska Rubber Rolls</strong>, <strong>Garlon Bag Closing Threads</strong>, and <strong>Sterling Abrasives</strong>.
+              Proud partners and authorized distributors for industry-leading brands, including <strong>Alaska Rubber Rolls</strong>, <strong>Garlon Bag Closing Threads</strong>, and <strong>Sterling Abrasives</strong>.
             </p>
           </div>
         </div>
@@ -111,6 +111,23 @@ export default function AboutSection() {
             <div className="bg-white/5 p-3 rounded-lg border border-white/10 text-[11px] text-slate-300 leading-normal">
               "We leverage our metallurgical expertise to ensure each coupling, screen, shaft, and roll aligns to perfect specifications, avoiding early bearing failure."
             </div>
+
+            <div className="mt-4 pt-4 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+              <div className="flex items-center gap-3">
+                <span className="p-2 bg-[#F59E0B] rounded-full text-white">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </span>
+                <span className="text-sm font-semibold text-white">Full Technical Brochure</span>
+              </div>
+              <a 
+                href="/Brochure%20(2).pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-[#F59E0B] hover:bg-white hover:text-[#0F3B36] text-white px-4 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-300"
+              >
+                View PDF
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -146,7 +163,7 @@ export default function AboutSection() {
                 Our Corporate Vision
               </h4>
               <p className="text-xs sm:text-sm text-slate-600 font-sans leading-relaxed">
-                To stand as the absolute, peerless blueprint standard for premium rice mill spare parts in India, bridging the gap between high-precision OEM standards and direct B2B supply logistics.
+                To stand as the absolute, peerless blueprint standard for premium rice mill spare parts in India, bridging the gap between high-precision OEM standards and direct supply logistics.
               </p>
             </div>
             <div className="text-[10px] uppercase tracking-wide font-mono text-slate-405 border-t border-slate-100 pt-3 mt-4">

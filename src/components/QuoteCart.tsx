@@ -329,7 +329,7 @@ export default function QuoteCart({
               {/* Requirement compilation Form */}
               <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm space-y-3 pt-4">
                 <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest block border-b border-slate-100 pb-1.5">
-                  B2B Contact Information:
+                  Contact Information:
                 </span>
 
                 <form onSubmit={handleSubmitQuote} className="space-y-3.5">
@@ -429,7 +429,7 @@ export default function QuoteCart({
                       className="w-full bg-[#1B5E4A] hover:bg-[#0F3B36] text-white p-3 rounded-lg text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2.5 transition-all shadow-md cursor-pointer"
                     >
                       <Send className="w-4 h-4" />
-                      Compile B2B Spare Parts Quote
+                      Compile Spare Parts Quote
                     </button>
                     <p className="text-[9px] text-slate-400 text-center mt-2">
                       Securing fast inquiry feedback within 12-24 hours.

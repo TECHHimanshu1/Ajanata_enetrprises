@@ -5,7 +5,6 @@ import HomeSection from './components/HomeSection';
 import AboutSection from './components/AboutSection';
 import ProductsSection from './components/ProductsSection';
 import DealersSection from './components/DealersSection';
-import GallerySection from './components/GallerySection';
 import ContactSection from './components/ContactSection';
 import QuoteCart from './components/QuoteCart';
 import { ActivePage, QuoteItem, Product } from './types';
@@ -124,9 +123,6 @@ export default function App() {
         {activePage === 'dealers' && (
           <DealersSection />
         )}
-        {activePage === 'gallery' && (
-          <GallerySection />
-        )}
         {activePage === 'contact' && (
           <ContactSection 
             quickInquiryPartName={quickInquiryPart}
@@ -135,7 +131,7 @@ export default function App() {
         )}
       </main>
 
-      {/* Persistent sliding B2B quotation manager sheet */}
+      {/* Persistent sliding quotation manager sheet */}
       <QuoteCart
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
@@ -147,7 +143,7 @@ export default function App() {
         setActivePage={setActivePage}
       />
 
-      {/* Standard B2B Footer */}
+      {/* Standard Footer */}
       <Footer setActivePage={setActivePage} />
     </div>
   );

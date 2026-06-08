@@ -7,7 +7,7 @@
   --font-display: "Playfair Display", "Georgia", "Times New Roman", ui-serif, serif;
 }
 
-/* Common high-quality custom B2B layout transitions */
+/* Common high-quality custom layout transitions */
 @layer utilities {
   .animate-slide-in-right {
     animation: slideInRight 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;

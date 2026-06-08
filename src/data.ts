@@ -93,6 +93,215 @@ export const GALLERY_ITEMS = [
     imageType: 'magnet',
     details: 'NdFeB rare earth magnets to purge mechanical contaminants from processing lines.'
   }
+,
+  {
+    id: 'g_user_0',
+    title: 'Spare Part Component 01',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_1',
+    title: 'Spare Part Component 02',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_2',
+    title: 'Spare Part Component 03',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_3',
+    title: 'Spare Part Component 04',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_4',
+    title: 'Spare Part Component 05',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714611813_18086253857132248_5004907016099275317_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_5',
+    title: 'Spare Part Component 06',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714631388_18086207921132248_1106884222181958759_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_6',
+    title: 'Spare Part Component 07',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714652327_18086206400132248_4431060123985964341_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_7',
+    title: 'Spare Part Component 08',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_8',
+    title: 'Spare Part Component 09',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714764709_18086251382132248_4545780746401942809_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_9',
+    title: 'Spare Part Component 010',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714766092_18086238707132248_1796983234248357446_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_10',
+    title: 'Spare Part Component 011',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/714966076_18086242589132248_4445032510538859744_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_11',
+    title: 'Spare Part Component 012',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_12',
+    title: 'Spare Part Component 013',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_13',
+    title: 'Spare Part Component 014',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715346786_18086243819132248_1516330382294424778_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_14',
+    title: 'Spare Part Component 015',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715360253_18086240045132248_2967046960812069827_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_15',
+    title: 'Spare Part Component 016',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_16',
+    title: 'Spare Part Component 017',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_17',
+    title: 'Spare Part Component 018',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_18',
+    title: 'Spare Part Component 019',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_19',
+    title: 'Spare Part Component 020',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715690867_18086213531132248_2197127978845901709_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_20',
+    title: 'Spare Part Component 021',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_21',
+    title: 'Spare Part Component 022',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_22',
+    title: 'Spare Part Component 023',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/716070211_18086421227132248_7893448937556899977_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_23',
+    title: 'Spare Part Component 024',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/716250798_18086421647132248_3479688236136570166_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_24',
+    title: 'Spare Part Component 025',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/716270731_18086417684132248_4231479742704651945_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  },
+  {
+    id: 'g_user_25',
+    title: 'Spare Part Component 026',
+    category: 'Spare Parts',
+    imageType: 'default',
+    imageSrc: '/716310329_18086418632132248_6756830579720608276_n.webp',
+    details: 'View our official component images from the latest catalogue update.'
+  }
 ];
 
 export const PRODUCTS: Product[] = [
@@ -112,7 +321,7 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Heat dissipation thermal grooves', 'Uniform wearing rate', 'Strict alignment balance'],
     imagePlaceholderType: 'roll',
-    imageSrc: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800'
+    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
   },
   {
     id: 'p1_2',
@@ -127,7 +336,8 @@ export const PRODUCTS: Product[] = [
       'Self-sharpening abrasive bond structure'
     ],
     features: ['High durability adhesive matrix', 'Cool cutting performance', 'Reduced grain breakage'],
-    imagePlaceholderType: 'roll'
+    imagePlaceholderType: 'roll',
+    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
   },
   {
     id: 'p1_3',
@@ -141,7 +351,8 @@ export const PRODUCTS: Product[] = [
       'Dynamic Balancing: Verified at 2400 RPM'
     ],
     features: ['No slip transmission', 'Fast swap-out mechanics', 'High vibration damping'],
-    imagePlaceholderType: 'coupling'
+    imagePlaceholderType: 'coupling',
+    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
   },
   {
     id: 'p1_4',
@@ -156,7 +367,8 @@ export const PRODUCTS: Product[] = [
       'Direct-fit specification'
     ],
     features: ['Corrosion resistant oxide coat', 'Wear-resistant rubber sleeve', 'Zero-backlash transmission'],
-    imagePlaceholderType: 'coupling'
+    imagePlaceholderType: 'coupling',
+    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
   },
   {
     id: 'p1_5',
@@ -170,7 +382,8 @@ export const PRODUCTS: Product[] = [
       'Available sizes: 10" x 10", 12" x 12"'
     ],
     features: ['Food-grade safe contact surface', 'Excellent abrasion index', 'High shear strength'],
-    imagePlaceholderType: 'roll'
+    imagePlaceholderType: 'roll',
+    imageSrc: '/714611813_18086253857132248_5004907016099275317_n.webp'
   },
 
   // --- Category 2: Whitener Spare Parts ---
@@ -186,7 +399,8 @@ export const PRODUCTS: Product[] = [
       'Operating Speed: 800 - 1200 RPM optimal range'
     ],
     features: ['Uniform wear behavior', 'Optimal bran purging', 'Extremely long service hours'],
-    imagePlaceholderType: 'milling'
+    imagePlaceholderType: 'milling',
+    imageSrc: '/714631388_18086207921132248_1106884222181958759_n.webp'
   },
   {
     id: 'p2_2',
@@ -200,7 +414,7 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['High wear resistance to silica abrasive sand', 'Smooth interior laser cut finishing', 'Optimal elasticity to resist cracking'],
     imagePlaceholderType: 'screen',
-    imageSrc: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6e22?auto=format&fit=crop&q=80&w=800'
+    imageSrc: '/714652327_18086206400132248_4431060123985964341_n.webp'
   },
   {
     id: 'p2_3',
@@ -213,7 +427,8 @@ export const PRODUCTS: Product[] = [
       'Dynamically balanced'
     ],
     features: ['Prevents grain congestion at intake', 'Interchangeable wear sleeves', 'High impact resistance'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp'
   },
   {
     id: 'p2_4',
@@ -227,7 +442,8 @@ export const PRODUCTS: Product[] = [
       'Finish: Heavy chrome coat'
     ],
     features: ['Optimized pitch to match OEM throughput rates', 'Extreme wear life', 'Anti-clogging surface finish'],
-    imagePlaceholderType: 'feeder'
+    imagePlaceholderType: 'feeder',
+    imageSrc: '/714764709_18086251382132248_4545780746401942809_n.webp'
   },
   {
     id: 'p2_5',
@@ -240,7 +456,8 @@ export const PRODUCTS: Product[] = [
       'Balanced counter-weighting'
     ],
     features: ['Quick interlocking keys', 'Reduced shear force design', 'High volumetric efficiency'],
-    imagePlaceholderType: 'feeder'
+    imagePlaceholderType: 'feeder',
+    imageSrc: '/714766092_18086238707132248_1796983234248357446_n.webp'
   },
   {
     id: 'p2_6',
@@ -252,7 +469,8 @@ export const PRODUCTS: Product[] = [
       'Material: Low-carbon structural steel with nitriding'
     ],
     features: ['Absolutely steady spin alignment', 'Quick installation tracks', 'Vibration buffering ring setup'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/714966076_18086242589132248_4445032510538859744_n.webp'
   },
   {
     id: 'p2_7',
@@ -266,7 +484,7 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Keyways for steady pulley lock', 'Ultrasonic deflection tested', 'Exceptional fatigue limits'],
     imagePlaceholderType: 'shaft',
-    imageSrc: 'https://images.unsplash.com/photo-1530124560072-aee7062445d4?auto=format&fit=crop&q=80&w=800'
+    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp'
   },
   {
     id: 'p2_8',
@@ -278,7 +496,8 @@ export const PRODUCTS: Product[] = [
       'High pitch fluted structure for massive conveying loads'
     ],
     features: ['Maximized volumetric feed rate', 'Coated with wear-retardant alloy spray'],
-    imagePlaceholderType: 'feeder'
+    imagePlaceholderType: 'feeder',
+    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp'
   },
 
   // --- Category 3: Silky Spare Parts ---
@@ -295,7 +514,7 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Anti-frictional micro grooves', 'No head-rise operation', 'Exceptional hygienic food safety ratings'],
     imagePlaceholderType: 'milling',
-    imageSrc: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800'
+    imageSrc: '/715346786_18086243819132248_1516330382294424778_n.webp'
   },
   {
     id: 'p3_2',
@@ -308,7 +527,8 @@ export const PRODUCTS: Product[] = [
       'Balanced at high operational velocity'
     ],
     features: ['Withstands massive torsional shocks', 'Optimum water spray distribution integration'],
-    imagePlaceholderType: 'milling'
+    imagePlaceholderType: 'milling',
+    imageSrc: '/715360253_18086240045132248_2967046960812069827_n.webp'
   },
   {
     id: 'p3_3',
@@ -321,7 +541,8 @@ export const PRODUCTS: Product[] = [
       'Thickness: 1.5mm - 2.0mm high durability'
     ],
     features: ['Absolutely burr-free surfaces to avoid grain damage', 'Resilient under highly humid moist conditions'],
-    imagePlaceholderType: 'screen'
+    imagePlaceholderType: 'screen',
+    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp'
   },
   {
     id: 'p3_4',
@@ -335,7 +556,8 @@ export const PRODUCTS: Product[] = [
       'Inlet connection threads: BSP Standard'
     ],
     features: ['Prevents spot wetting', 'Non-clogging internal swirl vanes', 'Easy quick-clean build'],
-    imagePlaceholderType: 'nozzle'
+    imagePlaceholderType: 'nozzle',
+    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp'
   },
   {
     id: 'p3_5',
@@ -348,7 +570,8 @@ export const PRODUCTS: Product[] = [
       'Maintains perfect circular concentricity'
     ],
     features: ['Friction-lock assembly tabs', 'Quick-change design simplifies maintenance'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp'
   },
   {
     id: 'p3_6',
@@ -360,7 +583,8 @@ export const PRODUCTS: Product[] = [
       'Sealing channels: Formed double lip viton inserts'
     ],
     features: ['Water-tight seal alignment', 'Heavy load bearing seating ground'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp'
   },
 
   // --- Category 4: Elevator Spare Parts ---
@@ -376,7 +600,7 @@ export const PRODUCTS: Product[] = [
     ],
     features: ['Ultra smooth inner radius prevents grain trapping', 'Heavy structural rimming to resist deflection'],
     imagePlaceholderType: 'bucket',
-    imageSrc: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800'
+    imageSrc: '/715690867_18086213531132248_2197127978845901709_n.webp'
   },
   {
     id: 'p4_2',
@@ -389,7 +613,8 @@ export const PRODUCTS: Product[] = [
       'Tensile Strength: Up to 450 N/mm'
     ],
     features: ['Minimal elongation stretching', 'High bolt holding strength', 'Optimal flexibility over small pulleys'],
-    imagePlaceholderType: 'bucket'
+    imagePlaceholderType: 'bucket',
+    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp'
   },
   {
     id: 'p4_3',
@@ -403,7 +628,8 @@ export const PRODUCTS: Product[] = [
       'Packaging: 1Kg and 2Kg industrial cone packs'
     ],
     features: ['Knot-free uniform thread diameter', 'Smooth flow through sewing needles without linting'],
-    imagePlaceholderType: 'bucket'
+    imagePlaceholderType: 'bucket',
+    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp'
   },
   {
     id: 'p4_4',
@@ -416,7 +642,8 @@ export const PRODUCTS: Product[] = [
       'Packaging: 100 piece industrial boxes'
     ],
     features: ['Anti-spinning dual-fang design', 'Extra flat head contours prevents belt wear'],
-    imagePlaceholderType: 'coupling'
+    imagePlaceholderType: 'coupling',
+    imageSrc: '/716070211_18086421227132248_7893448937556899977_n.webp'
   },
   {
     id: 'p4_5',
@@ -429,7 +656,8 @@ export const PRODUCTS: Product[] = [
       'Dimensions: Custom engineered to fit duct slots'
     ],
     features: ['Exceptional magnetic pulling radius', 'Easy self-slide clean mechanics', 'No power backup required'],
-    imagePlaceholderType: 'magnet'
+    imagePlaceholderType: 'magnet',
+    imageSrc: '/716250798_18086421647132248_3479688236136570166_n.webp'
   },
   {
     id: 'p4_6',
@@ -441,7 +669,8 @@ export const PRODUCTS: Product[] = [
       'Balanced: ISO 1940 G2.5 strict criteria'
     ],
     features: ['Low power consumption', 'Minimal aerodynamic noise', 'Egress wear shield plating'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/716270731_18086417684132248_4231479742704651945_n.webp'
   },
 
   // --- Category 5: Laboratory Equipment ---
@@ -456,7 +685,8 @@ export const PRODUCTS: Product[] = [
       'Inspection panel: Highly transparent PMMA chamber'
     ],
     features: ['Accurate separation replication', 'Desktop compact operational footprint'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/716310329_18086418632132248_6756830579720608276_n.webp'
   },
   {
     id: 'p5_2',
@@ -468,7 +698,8 @@ export const PRODUCTS: Product[] = [
       'Sturdy stainless steel sample drawers'
     ],
     features: ['Uniform hot air flow matrix', 'Prevents grain thermal shock cracking'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/logo.jpg'
   },
   {
     id: 'p5_3',
@@ -481,7 +712,8 @@ export const PRODUCTS: Product[] = [
       'Comes with standard dynamic catch pans'
     ],
     features: ['Zero static dust trap corners', 'Complying fully with ISTA grain standards'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
   },
   {
     id: 'p5_4',
@@ -494,7 +726,8 @@ export const PRODUCTS: Product[] = [
       'Quick timing controllers standard'
     ],
     features: ['Accurate dial adjustment for roll pressure', 'Tough noise-insulated composite cabinet'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
   },
   {
     id: 'p5_5',
@@ -506,7 +739,8 @@ export const PRODUCTS: Product[] = [
       'Electric automated rotation timer'
     ],
     features: ['Perfect separation profiling', 'Highly visual separation process'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
   },
 
   // --- Category 6: Additional Components ---
@@ -521,7 +755,8 @@ export const PRODUCTS: Product[] = [
       'Sizes: 150mm, 200mm, 250mm standard'
     ],
     features: ['Absolutely minimal blower air loss', 'Vane adjustments are swift and straightforward', 'Direct gear-box coupled mountings'],
-    imagePlaceholderType: 'valve'
+    imagePlaceholderType: 'valve',
+    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
   },
   {
     id: 'p6_2',
@@ -535,7 +770,8 @@ export const PRODUCTS: Product[] = [
       'Weight: 5.5 Kg'
     ],
     features: ['Extremely study cast alloy frame', 'Integrated safe mechanical thread cutter'],
-    imagePlaceholderType: 'machine'
+    imagePlaceholderType: 'machine',
+    imageSrc: '/714611813_18086253857132248_5004907016099275317_n.webp'
   },
   {
     id: 'p6_3',
@@ -548,7 +784,8 @@ export const PRODUCTS: Product[] = [
       'Position sensors: Magnetic proximity reed switches standard'
     ],
     features: ['Quick 0.5 second open/close timing', 'Slide blade guide bearings prevent jams'],
-    imagePlaceholderType: 'valve'
+    imagePlaceholderType: 'valve',
+    imageSrc: '/714631388_18086207921132248_1106884222181958759_n.webp'
   },
   {
     id: 'p6_4',
@@ -560,7 +797,8 @@ export const PRODUCTS: Product[] = [
       'Material: Wear-resistant structural grade steel sheet'
     ],
     features: ['Eliminates unbalanced channel congestion', 'Extends separator screen lifespans'],
-    imagePlaceholderType: 'default'
+    imagePlaceholderType: 'default',
+    imageSrc: '/714652327_18086206400132248_4431060123985964341_n.webp'
   },
   {
     id: 'p6_5',
@@ -573,7 +811,8 @@ export const PRODUCTS: Product[] = [
       'Excellent dimensional retention'
     ],
     features: ['Resistant to thermal flex', 'Simple snap-in fit mechanism'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/714670854_18086248826132248_3486912241875599260_n.webp'
   },
   {
     id: 'p6_6',
@@ -585,7 +824,8 @@ export const PRODUCTS: Product[] = [
       'Core diameter: 25mm seamless tubular pipe'
     ],
     features: ['Sharp penetrative chrome tip', 'Easy grain dump ports'],
-    imagePlaceholderType: 'shaft'
+    imagePlaceholderType: 'shaft',
+    imageSrc: '/714764709_18086251382132248_4545780746401942809_n.webp'
   },
   {
     id: 'p3_7',
@@ -599,7 +839,8 @@ export const PRODUCTS: Product[] = [
       'Mounting: Rigid Dual Wall/Panel Mount alignment'
     ],
     features: ['High Precision Needle Valve Control', 'Vibrant float dial meter for instant visibility', 'Special anti-rust coating for high moisture regions'],
-    imagePlaceholderType: 'nozzle'
+    imagePlaceholderType: 'nozzle',
+    imageSrc: '/714766092_18086238707132248_1796983234248357446_n.webp'
   },
   {
     id: 'p6_7',
@@ -613,7 +854,8 @@ export const PRODUCTS: Product[] = [
       'Rotor Alignment: Concentric dynamic balance'
     ],
     features: ['Minimizes blowback air leakages', 'Interchangeable heat-resistant neoprene blade tips', 'Direct-drive reduction gear transmission'],
-    imagePlaceholderType: 'valve'
+    imagePlaceholderType: 'valve',
+    imageSrc: '/714966076_18086242589132248_4445032510538859744_n.webp'
   },
   {
     id: 'p3_8',
@@ -626,7 +868,8 @@ export const PRODUCTS: Product[] = [
       'Connection: standard BSP threads'
     ],
     features: ['Guards against rice spot-wetting & clumping', 'Internal swirl vane prevents sediment clogging', 'Instant quick-clean thread disassembly'],
-    imagePlaceholderType: 'nozzle'
+    imagePlaceholderType: 'nozzle',
+    imageSrc: '/715058236_18086252321132248_5065726632716609056_n.webp'
   },
   {
     id: 'p1_6',
@@ -639,7 +882,8 @@ export const PRODUCTS: Product[] = [
       'Elongation Limit: High stretch memory elasticity'
     ],
     features: ['Prevents conveying line vacuum leaks', 'Strict resistance to environmental ozone and cracks', 'Fast clamp-on snap fit'],
-    imagePlaceholderType: 'roll'
+    imagePlaceholderType: 'roll',
+    imageSrc: '/715078221_18086250437132248_1552943008067158193_n.webp'
   },
   {
     id: 'p3_9',
@@ -652,7 +896,8 @@ export const PRODUCTS: Product[] = [
       'Application: Rice Polishing systems'
     ],
     features: ['Dampens dynamic vibration during high velocity conveying', 'Precision inner diameter prevents grain entrapment', 'Withstands extended continuous running hours'],
-    imagePlaceholderType: 'feeder'
+    imagePlaceholderType: 'feeder',
+    imageSrc: '/715346786_18086243819132248_1516330382294424778_n.webp'
   },
   {
     id: 'p6_8',
@@ -665,7 +910,8 @@ export const PRODUCTS: Product[] = [
       'Sizes: Custom manufactured sizes available'
     ],
     features: ['High filtration efficiency with minimal mesh clogging', 'Wooden border absorbs rhythmic shaker vibrations', 'High tension assembly guards grid flatness'],
-    imagePlaceholderType: 'screen'
+    imagePlaceholderType: 'screen',
+    imageSrc: '/715360253_18086240045132248_2967046960812069827_n.webp'
   },
   {
     id: 'p6_9',
@@ -678,7 +924,8 @@ export const PRODUCTS: Product[] = [
       'Tension rating: Multi-ton wear resistance'
     ],
     features: ['High-tensile joint pins resist stretch fatigue', 'Smooth scraper motion protects channel corners', 'Anti-corrosive finish for reliable outdoor runs'],
-    imagePlaceholderType: 'coupling'
+    imagePlaceholderType: 'coupling',
+    imageSrc: '/715397064_18086255633132248_8658993242386398235_n.webp'
   },
   {
     id: 'p6_10',
@@ -691,7 +938,8 @@ export const PRODUCTS: Product[] = [
       'Application: Separator machine support footing'
     ],
     features: ['Dramatically minimizes structural building vibrations', 'Ensures perfect, level alignment of separation screen tables', 'Reduces mechanical stress wear on machine brackets'],
-    imagePlaceholderType: 'default'
+    imagePlaceholderType: 'default',
+    imageSrc: '/715516329_18086419850132248_1662264054689760263_n.webp'
   },
   {
     id: 'p5_6',
@@ -704,7 +952,8 @@ export const PRODUCTS: Product[] = [
       'Accessory: Dynamic desktop record printer'
     ],
     features: ['Secures 100% instant moisture verification', 'User friendly multi-grain preset selectors', 'Unmatched sensor accuracy of +/- 0.5%'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/715537430_18086420636132248_778669848444845215_n.webp'
   },
   {
     id: 'p6_11',
@@ -717,7 +966,8 @@ export const PRODUCTS: Product[] = [
       'Thickness: Heavy gauge wear resistance'
     ],
     features: ['Uniform perforation guarantees calibration consistency', 'Seamless, burr-free borders protect polished grain', 'Friction-free slip finish increases sieve output'],
-    imagePlaceholderType: 'screen'
+    imagePlaceholderType: 'screen',
+    imageSrc: '/715650305_18086241407132248_1749240537532508743_n.webp'
   },
   {
     id: 'p2_9',
@@ -730,7 +980,8 @@ export const PRODUCTS: Product[] = [
       'Dimensions: Factory matched specifications'
     ],
     features: ['Extends expensive whitener screen mesh lifespans', 'Improves milling efficiency through steady feeds', 'Extremely resilient wear-resistant alloy structure'],
-    imagePlaceholderType: 'shaft'
+    imagePlaceholderType: 'shaft',
+    imageSrc: '/715690867_18086213531132248_2197127978845901709_n.webp'
   },
   {
     id: 'p6_12',
@@ -743,7 +994,8 @@ export const PRODUCTS: Product[] = [
       'Sensors: Integrated magnetic reed status indicators'
     ],
     features: ['Smart automation ready for clean remote integration', 'Ultra-durable casing resists heavy gravity loads', '0.5-second fast slider movement prevents flow congestion'],
-    imagePlaceholderType: 'valve'
+    imagePlaceholderType: 'valve',
+    imageSrc: '/715730250_18086240543132248_8458244010810937293_n.webp'
   },
   {
     id: 'p6_13',
@@ -756,7 +1008,8 @@ export const PRODUCTS: Product[] = [
       'Sewing Motor: Fully insulated 110W drive'
     ],
     features: ['Perfect, leak-proof packaging sutures', 'Automatic mechanical thread chain-cutter', 'Lightweight alloy housing reduces handler fatigue'],
-    imagePlaceholderType: 'machine'
+    imagePlaceholderType: 'machine',
+    imageSrc: '/715910426_18086420159132248_8733144403340946777_n.webp'
   },
   {
     id: 'p6_14',
@@ -769,7 +1022,8 @@ export const PRODUCTS: Product[] = [
       'Adjustable levels: Custom screen intensity parameters'
     ],
     features: ['Shields delicate screen frameworks from over-flex damage', 'Guarantees uniform separation across entire sizer grids', 'Significantly scales up hourly separator throughput'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/716070211_18086421227132248_7893448937556899977_n.webp'
   },
   {
     id: 'p2_10',
@@ -782,7 +1036,8 @@ export const PRODUCTS: Product[] = [
       'Application: De-stoner machines & whiteners'
     ],
     features: ['Eliminates abrasive mineral pebbles from flow line', 'Sturdy framework absorbs recurring dynamic shocks', 'Easy slide-in replacements reduce plant downtime'],
-    imagePlaceholderType: 'screen'
+    imagePlaceholderType: 'screen',
+    imageSrc: '/716250798_18086421647132248_3479688236136570166_n.webp'
   },
   {
     id: 'p2_11',
@@ -794,7 +1049,8 @@ export const PRODUCTS: Product[] = [
       'Application: Primary wheat/rice whitener machinery'
     ],
     features: ['Achieves uniform grain fracture index', 'Significantly lowers energy consumption of whiteners', 'Prevents accidental friction head-rise inside chamber'],
-    imagePlaceholderType: 'shaft'
+    imagePlaceholderType: 'shaft',
+    imageSrc: '/716270731_18086417684132248_4231479742704651945_n.webp'
   },
   {
     id: 'p3_10',
@@ -807,7 +1063,8 @@ export const PRODUCTS: Product[] = [
       'Application: Silky water polishers'
     ],
     features: ['Extends polishing screen life under moist zones', 'Absolutely smooth, burr-free inner channels prevent grain broken ratios'],
-    imagePlaceholderType: 'screen'
+    imagePlaceholderType: 'screen',
+    imageSrc: '/716310329_18086418632132248_6756830579720608276_n.webp'
   },
   {
     id: 'p2_12',
@@ -820,7 +1077,8 @@ export const PRODUCTS: Product[] = [
       'Application: All standard vertical/horizontal whiteners'
     ],
     features: ['Highly balanced structure prevents machine vibrations', 'Exceptional self-sharpening properties raise peeling rate', 'Extremely resilient wear limits for massive cumulative tonnage'],
-    imagePlaceholderType: 'milling'
+    imagePlaceholderType: 'milling',
+    imageSrc: '/logo.jpg'
   },
   {
     id: 'p5_7',
@@ -833,7 +1091,8 @@ export const PRODUCTS: Product[] = [
       'Footprint: Space-saving desktop model'
     ],
     features: ['Ensures clean, standardized lab grain batches before tests', 'Dust-free closed recycling structure saves environment', 'Extremely quiet, simple maintenance operation'],
-    imagePlaceholderType: 'lab-equipment'
+    imagePlaceholderType: 'lab-equipment',
+    imageSrc: '/711828060_18086242049132248_6163303143837874841_n.webp'
   },
   {
     id: 'p2_13',
@@ -846,7 +1105,8 @@ export const PRODUCTS: Product[] = [
       'Application: High volume rice whitener entries'
     ],
     features: ['Uniform distribution eliminates chute blockage risks', 'Superb resistance against abrasive sand scraping', 'Concentric balance saves rotor bearing life'],
-    imagePlaceholderType: 'ring'
+    imagePlaceholderType: 'ring',
+    imageSrc: '/713284080_18085366901132248_4550052494114751351_n.webp'
   },
   {
     id: 'p6_15',
@@ -859,7 +1119,8 @@ export const PRODUCTS: Product[] = [
       'Hardness: Flex-firm 70 Shore A'
     ],
     features: ['Tight-fitting rim prevents material blowouts', 'Resilient under chemical, thermal, and oil contacts', 'Fast snap-fit manual pull-tabs simplify lookups'],
-    imagePlaceholderType: 'roll'
+    imagePlaceholderType: 'roll',
+    imageSrc: '/714423461_18086209169132248_42285294813332002_n.webp'
   },
   {
     id: 'p6_16',
@@ -872,7 +1133,8 @@ export const PRODUCTS: Product[] = [
       'Bore layouts: standard mechanical fittings'
     ],
     features: ['Isolates dynamic shocks from concrete floors and rails', 'Increases mechanical life of supporting bolts and frames', 'Dampens noise yields for safe operator surroundings'],
-    imagePlaceholderType: 'roll'
+    imagePlaceholderType: 'roll',
+    imageSrc: '/714599093_18086245805132248_1800360810060095377_n.webp'
   },
   {
     id: 'p6_17',
