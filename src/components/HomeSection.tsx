@@ -1,4 +1,5 @@
-import { ArrowRight, Disc, Settings, Wrench, ArrowUpCircle, FlaskConical, Blocks, ShieldCheck, Clock, Award, Handshake, Shield, Truck } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { ArrowRight, Disc, Settings, Wrench, ArrowUpCircle, FlaskConical, Blocks, ShieldCheck, Clock, Award, Handshake, Shield, Truck, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ActivePage, Product } from '../types';
 
 interface HomeSectionProps {
@@ -8,6 +9,22 @@ interface HomeSectionProps {
 }
 
 export default function HomeSection({ setActivePage, products, onSelectCategory }: HomeSectionProps) {
+  const [zoomedProduct, setZoomedProduct] = useState<Product | null>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollRef.current) {
+      const { scrollLeft, clientWidth } = scrollRef.current;
+      const scrollAmount = direction === 'left' ? -clientWidth / 2 : clientWidth / 2;
+      scrollRef.current.scrollTo({
+        left: scrollLeft + scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  const featuredProducts = products.filter(p => p.imageSrc && !p.imageSrc.includes('unsplash') && !p.imageSrc.includes('logo.jpg')).slice(0, 12);
+
   const stats = [
     { value: '25+', label: 'Years Experience', desc: 'Since 1998' },
     { value: '500+', label: 'Products & Spares', desc: 'Comprehensive Inventory' },
@@ -170,27 +187,32 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       {/* 3. About Preview Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="relative rounded-2xl overflow-hidden aspect-video shadow-lg group">
-          {/* Aesthetic industrial layout visualization (geometric structure) */}
-          <div className="absolute inset-0 bg-[#0F3B36] p-10 flex flex-col justify-between text-white border-l-8 border-[#F59E0B]">
+          {/* Background Image of Factory Showroom */}
+          <img 
+            src="/factory_showroom.png" 
+            alt="Ajanta Enterprises Factory Showroom" 
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 pointer-events-none" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0F3B36] via-[#0F3B36]/80 to-transparent p-6 sm:p-10 flex flex-col justify-between text-white border-l-8 border-[#F59E0B]">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <span className="h-0.5 w-10 bg-[#F59E0B]" />
-                <span className="text-xs font-mono uppercase tracking-wider text-[#F59E0B]">
+                <span className="text-xs font-mono uppercase tracking-wider text-[#F59E0B] drop-shadow-sm">
                   Ajanta Enterprises
                 </span>
               </div>
-              <h3 className="text-2xl sm:text-3xl font-bold tracking-tight font-display text-white">
+              <h3 className="text-2xl sm:text-3xl font-bold tracking-tight font-display text-white drop-shadow-md leading-snug">
                 Manufacturing Reliable Industrial Components Since 1998
               </h3>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 border-t border-white/10 pt-6 mt-4">
+            <div className="grid grid-cols-2 gap-4 border-t border-white/20 pt-6 mt-4 backdrop-blur-xs bg-[#0F3B36]/60 p-4 rounded-xl border border-white/5">
               <div>
-                <span className="text-xs text-slate-400 block mb-1">State Certification</span>
+                <span className="text-xs text-slate-300 block mb-1">State Certification</span>
                 <span className="text-xs font-bold text-white uppercase tracking-wider">Haryana Industry Approved</span>
               </div>
               <div>
-                <span className="text-xs text-slate-400 block mb-1">Logistics Coverage</span>
+                <span className="text-xs text-slate-300 block mb-1">Logistics Coverage</span>
                 <span className="text-xs font-bold text-white uppercase tracking-wider">PAN India Transit Network</span>
               </div>
             </div>
@@ -264,6 +286,88 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
               );
             })}
           </div>
+        </div>
+      </section>
+
+      {/* 4.5. Featured Product Gallery Carousel */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 border-b border-slate-200 pb-5">
+          <div className="space-y-2 text-left">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#1B5E4A] block">
+              Visual Catalog
+            </span>
+            <h3 className="text-2.5xl sm:text-3xl font-bold tracking-tight text-[#0F3B36] font-display">
+              Featured Spare Parts Gallery
+            </h3>
+            <p className="text-xs text-slate-500 font-sans">
+              Click on any component image to zoom in and check its engineering precision.
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => scroll('left')}
+              className="p-2 border border-slate-350 rounded-full hover:bg-slate-50 hover:border-[#1B5E4A] text-[#0F3B36] transition-colors cursor-pointer"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => scroll('right')}
+              className="p-2 border border-slate-350 rounded-full hover:bg-slate-50 hover:border-[#1B5E4A] text-[#0F3B36] transition-colors cursor-pointer"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+
+        {/* Scrollable Track */}
+        <div 
+          ref={scrollRef}
+          className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent scroll-smooth snap-x"
+          style={{ scrollbarWidth: 'thin' }}
+        >
+          {featuredProducts.map((product) => (
+            <div 
+              key={product.id}
+              className="w-72 flex-shrink-0 snap-start bg-white rounded-2xl border border-slate-200/85 shadow-xs hover:shadow-md transition-all overflow-hidden flex flex-col group"
+            >
+              {/* Product Image Box */}
+              <div 
+                onClick={() => setZoomedProduct(product)}
+                className="h-48 bg-slate-50 border-b border-slate-100 flex items-center justify-center p-6 relative overflow-hidden cursor-zoom-in"
+              >
+                <img 
+                  src={product.imageSrc || '/logo.jpg'} 
+                  alt={product.name}
+                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute top-3 left-3 bg-[#0F3B36] text-[#F59E0B] text-[8px] font-mono font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  {product.subcategory || product.category}
+                </div>
+              </div>
+              {/* Product Info */}
+              <div className="p-5 flex-grow flex flex-col justify-between text-left">
+                <div className="space-y-1">
+                  <h4 className="text-sm font-bold text-[#0F3B36] font-display line-clamp-1 group-hover:text-[#1B5E4A] transition-colors">
+                    {product.name}
+                  </h4>
+                  <p className="text-slate-500 text-xs font-sans line-clamp-2 leading-relaxed">
+                    {product.description}
+                  </p>
+                </div>
+                <button
+                  onClick={() => {
+                    onSelectCategory(product.category);
+                    setActivePage('products');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="mt-4 w-full py-2.5 bg-slate-50 hover:bg-[#0F3B36] text-[#0F3B36] hover:text-white text-xs font-bold font-sans uppercase tracking-widest rounded-lg transition-colors duration-300 flex items-center justify-center gap-1 cursor-pointer"
+                >
+                  View Details
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -379,6 +483,38 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
           </div>
         </div>
       </section>
+
+      {/* Zoom Modal */}
+      {zoomedProduct && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm animate-fade-in"
+          onClick={() => setZoomedProduct(null)}
+        >
+          <div 
+            className="relative max-w-4xl max-h-[90vh] bg-[#0F3B36] p-2 rounded-2xl border border-white/10 shadow-2xl flex flex-col justify-center animate-scale"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button 
+              className="absolute top-4 right-4 bg-[#F59E0B] text-[#0F3B36] p-2 rounded-full shadow-lg hover:bg-white transition-colors z-10 cursor-pointer"
+              onClick={(e) => {
+                e.stopPropagation();
+                setZoomedProduct(null);
+              }}
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <img 
+              src={zoomedProduct.imageSrc} 
+              alt={zoomedProduct.name}
+              className="max-w-full max-h-[80vh] object-contain rounded-xl"
+            />
+            <div className="p-4 text-center">
+              <h4 className="text-white font-display font-bold text-lg">{zoomedProduct.name}</h4>
+              <p className="text-[#F59E0B] text-xs mt-1 font-mono uppercase tracking-widest">{zoomedProduct.category}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
