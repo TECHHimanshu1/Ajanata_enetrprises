@@ -112,81 +112,37 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
         <div className="absolute -top-32 -left-32 w-96 h-96 bg-[#1B5E4A] rounded-full blur-[100px] opacity-45 pointer-events-none animate-pulse duration-[8000ms]" />
         <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-[#F59E0B] rounded-full blur-[120px] opacity-20 pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Headline and introduction text */}
-          <div className="lg:col-span-7 space-y-8 text-center lg:text-left relative">
-            <div className="absolute top-0 left-0 w-32 h-32 border-l-4 border-t-4 border-[#F59E0B] opacity-10 hidden lg:block -translate-x-8 -translate-y-8"></div>
-            
+        <div className="max-w-4xl mx-auto relative text-center space-y-8 py-8">
+          <div className="flex justify-center">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#1B5E4A]/45 hover:bg-[#1B5E4A]/60 border border-emerald-500/20 rounded-full text-xs font-semibold text-[#F59E0B] tracking-wider uppercase select-none transition-colors duration-300">
               <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
               ESTABLISHED 1998 • India's Quality Leader
             </div>
-            
-            <h2 className="text-4xl sm:text-6xl lg:text-7.5xl font-bold tracking-tight font-display leading-[1.08] text-white">
-              Premium Rice Mill <br />
-              <span className="bg-gradient-to-r from-[#F59E0B] to-amber-300 bg-clip-text text-transparent font-display italic font-light pr-2">Spare Parts</span> Solutions
-            </h2>
-            
-            <p className="text-base sm:text-lg text-slate-300 font-sans max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light border-l-4 border-[#F59E0B] pl-6 text-left">
-              Trusted by primary modern rice mills across India for absolute metallurgical density, micron-perfect dimensional tolerances, and high mechanical performance. Strengthening processing lines, reducing scheduled downtime.
-            </p>
-
-            <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
-              <button
-                onClick={() => handleCategoryNavigate('all')}
-                className="bg-[#F59E0B] hover:bg-[#d97d02] text-[#0F3B36] font-bold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 shadow-lg hover:shadow-[#F59E0B]/20 transform hover:-translate-y-0.5 flex items-center gap-2.5 cursor-pointer group"
-              >
-                Explore Product Catalog
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </button>
-              <button
-                onClick={() => setActivePage('contact')}
-                className="bg-transparent border border-slate-300/80 hover:border-white hover:bg-white/5 text-white font-semibold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 cursor-pointer"
-              >
-                Contact Sales
-              </button>
-            </div>
           </div>
+          
+          <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight font-display leading-[1.12] text-white">
+            Premium Rice Mill <br />
+            <span className="bg-gradient-to-r from-[#F59E0B] to-amber-300 bg-clip-text text-transparent font-display italic font-light pr-2">Spare Parts</span> Solutions
+          </h2>
+          
+          <p className="text-base sm:text-lg text-slate-300 font-sans max-w-2xl mx-auto leading-relaxed font-light text-center px-4 sm:px-6">
+            Trusted by primary modern rice mills across India for absolute metallurgical density, micron-perfect dimensional tolerances, and high mechanical performance. Strengthening processing lines, reducing scheduled downtime.
+          </p>
 
-          {/* Interactive Hero Graphic Frame */}
-          <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-80 h-80 sm:w-[420px] sm:h-[420px] flex-shrink-0 animate-float">
-              {/* Spinning background outline */}
-              <div className="absolute inset-0 border border-dashed border-[#F59E0B]/20 rounded-full animate-slow-spin w-[108%] h-[108%] -left-[4%] -top-[4%] pointer-events-none" />
-              
-              {/* Backglow highlight */}
-              <div className="absolute -inset-2 bg-gradient-to-tr from-[#F59E0B] to-[#1B5E4A] rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition duration-700 pointer-events-none" />
-              
-              {/* Main image container */}
-              <div className="relative bg-slate-900/40 backdrop-blur-md border border-white/10 rounded-3xl p-4 overflow-hidden shadow-2xl group w-full h-full flex items-center justify-center">
-                <img 
-                  src="/hero_rice_mill.png" 
-                  alt="Premium Rice Mill Component" 
-                  className="w-full h-full object-cover rounded-2xl shadow-inner transition-transform duration-700 group-hover:scale-103"
-                />
-                
-                {/* Tech corner accents */}
-                <div className="absolute top-6 left-6 w-5 h-5 border-l-2 border-t-2 border-[#F59E0B] opacity-60" />
-                <div className="absolute top-6 right-6 w-5 h-5 border-r-2 border-t-2 border-[#F59E0B] opacity-60" />
-                <div className="absolute bottom-6 left-6 w-5 h-5 border-l-2 border-b-2 border-[#F59E0B] opacity-60" />
-                <div className="absolute bottom-6 right-6 w-5 h-5 border-r-2 border-b-2 border-[#F59E0B] opacity-60" />
-
-                {/* Hovering data tags */}
-                <div className="absolute -top-1 -left-1 sm:-top-3 sm:-left-3 bg-[#0F3B36]/95 backdrop-blur-md border border-[#F59E0B]/30 px-3 py-1.5 rounded-lg shadow-lg text-[9px] font-mono font-bold tracking-wider text-[#F59E0B] uppercase flex items-center gap-1.5 select-none hover:border-[#F59E0B] transition-colors duration-300">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#F59E0B] animate-ping" />
-                  BALANCING • DYNAMIC G2.5
-                </div>
-
-                <div className="absolute -bottom-1 -right-1 sm:-bottom-3 sm:-right-3 bg-[#0F3B36]/95 backdrop-blur-md border border-emerald-500/30 px-3 py-1.5 rounded-lg shadow-lg text-[9px] font-mono font-bold tracking-wider text-emerald-400 uppercase flex items-center gap-1.5 select-none hover:border-emerald-400 transition-colors duration-300">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                  METALLURGY • SG IRON / MN STEEL
-                </div>
-
-                <div className="absolute bottom-12 -left-2 sm:-left-6 bg-slate-950/90 backdrop-blur-md border border-white/10 px-3 py-1.5 rounded-lg shadow-lg text-[8px] sm:text-[9px] font-mono font-bold tracking-wider text-slate-300 uppercase flex items-center gap-1.5 select-none hover:border-white/20 transition-colors duration-300">
-                  ESTD 1998 • PREMIUM GRADE
-                </div>
-              </div>
-            </div>
+          <div className="flex flex-wrap justify-center gap-4 pt-4">
+            <button
+              onClick={() => handleCategoryNavigate('all')}
+              className="bg-[#F59E0B] hover:bg-[#d97d02] text-[#0F3B36] font-bold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 shadow-lg hover:shadow-[#F59E0B]/20 transform hover:-translate-y-0.5 flex items-center gap-2.5 cursor-pointer group"
+            >
+              Explore Product Catalog
+              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+            </button>
+            <button
+              onClick={() => setActivePage('contact')}
+              className="bg-transparent border border-slate-300/80 hover:border-white hover:bg-white/5 text-white font-semibold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 cursor-pointer"
+            >
+              Contact Sales
+            </button>
           </div>
         </div>
       </section>
