@@ -109,76 +109,83 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
         </div>
 
         {/* Ambient radial lighting shadows */}
-        <div className="absolute -top-32 -left-32 w-96 h-96 bg-[#1B5E4A] rounded-full blur-[100px] opacity-40 pointer-events-none" />
-        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-[#F59E0B] rounded-full blur-[120px] opacity-15 pointer-events-none" />
+        <div className="absolute -top-32 -left-32 w-96 h-96 bg-[#1B5E4A] rounded-full blur-[100px] opacity-45 pointer-events-none animate-pulse duration-[8000ms]" />
+        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-[#F59E0B] rounded-full blur-[120px] opacity-20 pointer-events-none" />
 
         <div className="max-w-7xl mx-auto relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Headline and introduction text */}
-          <div className="lg:col-span-7 space-y-6 text-center lg:text-left relative">
+          <div className="lg:col-span-7 space-y-8 text-center lg:text-left relative">
             <div className="absolute top-0 left-0 w-32 h-32 border-l-4 border-t-4 border-[#F59E0B] opacity-10 hidden lg:block -translate-x-8 -translate-y-8"></div>
             
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#1B5E4A]/45 hover:bg-[#1B5E4A]/60 border border-emerald-55/20 rounded-full text-xs font-semibold text-[#F59E0B] tracking-wider uppercase select-none">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#1B5E4A]/45 hover:bg-[#1B5E4A]/60 border border-emerald-500/20 rounded-full text-xs font-semibold text-[#F59E0B] tracking-wider uppercase select-none transition-colors duration-300">
               <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
               ESTABLISHED 1998 • India's Quality Leader
             </div>
             
-            <h2 className="text-4xl sm:text-6xl lg:text-7.5xl font-bold tracking-tight font-display leading-[1.05] text-white">
+            <h2 className="text-4xl sm:text-6xl lg:text-7.5xl font-bold tracking-tight font-display leading-[1.08] text-white">
               Premium Rice Mill <br />
-              <span className="italic text-[#F59E0B] font-display font-light">Spare Parts</span> Solutions
+              <span className="bg-gradient-to-r from-[#F59E0B] to-amber-300 bg-clip-text text-transparent font-display italic font-light pr-2">Spare Parts</span> Solutions
             </h2>
             
-            <p className="text-base sm:text-lg text-slate-300 font-sans max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light border-l-2 border-[#F59E0B] pl-6 text-left">
+            <p className="text-base sm:text-lg text-slate-300 font-sans max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light border-l-4 border-[#F59E0B] pl-6 text-left">
               Trusted by primary modern rice mills across India for absolute metallurgical density, micron-perfect dimensional tolerances, and high mechanical performance. Strengthening processing lines, reducing scheduled downtime.
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
               <button
                 onClick={() => handleCategoryNavigate('all')}
-                className="bg-[#F59E0B] hover:bg-[#d97d02] text-[#0F3B36] font-bold text-xs tracking-widest uppercase px-7 py-4 rounded-none transition-all duration-300 shadow-md flex items-center gap-2 cursor-pointer"
+                className="bg-[#F59E0B] hover:bg-[#d97d02] text-[#0F3B36] font-bold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 shadow-lg hover:shadow-[#F59E0B]/20 transform hover:-translate-y-0.5 flex items-center gap-2.5 cursor-pointer group"
               >
                 Explore Product Catalog
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
               <button
                 onClick={() => setActivePage('contact')}
-                className="bg-transparent border border-slate-300/80 hover:border-white hover:bg-white/5 text-white font-semibold text-xs tracking-widest uppercase px-7 py-4 rounded-none transition-all duration-300 cursor-pointer"
+                className="bg-transparent border border-slate-300/80 hover:border-white hover:bg-white/5 text-white font-semibold text-xs tracking-widest uppercase px-8 py-4.5 rounded-xl transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 cursor-pointer"
               >
                 Contact Sales
               </button>
             </div>
           </div>
 
-          {/* Isometric machinery assembly mockup graphic */}
+          {/* Interactive Hero Graphic Frame */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-80 h-80 sm:w-96 sm:h-96 flex-shrink-0 animate-fade-in">
-              <svg viewBox="0 0 200 200" className="w-full h-full text-white" xmlns="http://www.w3.org/2000/svg">
-                {/* Isometric machine framing background visual */}
-                <ellipse cx="100" cy="140" rx="70" ry="25" fill="#1B5E4A" className="opacity-30" />
-                <ellipse cx="100" cy="140" rx="50" ry="18" fill="#0F3B36" className="opacity-40" />
-
-                {/* Grid pillars */}
-                <line x1="50" y1="90" x2="50" y2="140" stroke="#0F3B36" strokeWidth="2" strokeDasharray="3 3" className="opacity-40" />
-                <line x1="150" y1="90" x2="150" y2="140" stroke="#0F3B36" strokeWidth="2" strokeDasharray="3 3" className="opacity-40" />
-
-                {/* Massive 3D Main Rubber Roll Core element */}
-                <path d="M 60,75 C 60,60 80,50 100,50 C 120,50 140,60 140,75 L 140,115 C 140,130 120,140 100,140 C 80,140 60,130 60,115 Z" fill="#F8FAFC" stroke="#1B5E4A" strokeWidth="3" />
-                {/* Polishing friction bands color */}
-                <path d="M 60,85 C 60,75 80,68 100,68 C 120,68 140,75 140,85" stroke="#F59E0B" strokeWidth="4" fill="none" />
-                <path d="M 60,105 C 60,95 80,88 100,88 C 120,88 140,95 140,105" stroke="#F59E0B" strokeWidth="4" fill="none" />
+            <div className="relative w-80 h-80 sm:w-[420px] sm:h-[420px] flex-shrink-0 animate-float">
+              {/* Spinning background outline */}
+              <div className="absolute inset-0 border border-dashed border-[#F59E0B]/20 rounded-full animate-slow-spin w-[108%] h-[108%] -left-[4%] -top-[4%] pointer-events-none" />
+              
+              {/* Backglow highlight */}
+              <div className="absolute -inset-2 bg-gradient-to-tr from-[#F59E0B] to-[#1B5E4A] rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition duration-700 pointer-events-none" />
+              
+              {/* Main image container */}
+              <div className="relative bg-slate-900/40 backdrop-blur-md border border-white/10 rounded-3xl p-4 overflow-hidden shadow-2xl group w-full h-full flex items-center justify-center">
+                <img 
+                  src="/hero_rice_mill.png" 
+                  alt="Premium Rice Mill Component" 
+                  className="w-full h-full object-cover rounded-2xl shadow-inner transition-transform duration-700 group-hover:scale-103"
+                />
                 
-                {/* Inner hub shaft */}
-                <ellipse cx="100" cy="72" rx="18" ry="8" fill="#CBD5E1" stroke="#0F3B36" strokeWidth="2" />
-                <ellipse cx="100" cy="72" rx="8" ry="4" fill="#0F3B36" />
+                {/* Tech corner accents */}
+                <div className="absolute top-6 left-6 w-5 h-5 border-l-2 border-t-2 border-[#F59E0B] opacity-60" />
+                <div className="absolute top-6 right-6 w-5 h-5 border-r-2 border-t-2 border-[#F59E0B] opacity-60" />
+                <div className="absolute bottom-6 left-6 w-5 h-5 border-l-2 border-b-2 border-[#F59E0B] opacity-60" />
+                <div className="absolute bottom-6 right-6 w-5 h-5 border-r-2 border-b-2 border-[#F59E0B] opacity-60" />
 
-                {/* Top dynamic sprocket disk */}
-                <path d="M 75,40 C 75,32 86,26 100,26 C 114,26 125,32 125,40 L 125,48 C 125,56 114,62 100,62 C 86,62 75,56 75,48 Z" fill="#E2E8F0" stroke="#F59E0B" strokeWidth="2.5" />
-                <line x1="100" y1="20" x2="100" y2="26" stroke="#F59E0B" strokeWidth="3" />
-                
-                {/* Tech target parameters indicators */}
-                <text x="140" y="44" className="text-[10px] font-mono fill-[#F59E0B] font-bold">250+ RPM</text>
-                <text x="36" y="115" className="text-[10px] font-mono fill-emerald-420 font-bold">ALASKA GRADE</text>
-                <path d="M 40,105 H 56 M 142,35 H 122" stroke="white" strokeWidth="1" strokeDasharray="2 2" />
-              </svg>
+                {/* Hovering data tags */}
+                <div className="absolute -top-1 -left-1 sm:-top-3 sm:-left-3 bg-[#0F3B36]/95 backdrop-blur-md border border-[#F59E0B]/30 px-3 py-1.5 rounded-lg shadow-lg text-[9px] font-mono font-bold tracking-wider text-[#F59E0B] uppercase flex items-center gap-1.5 select-none hover:border-[#F59E0B] transition-colors duration-300">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#F59E0B] animate-ping" />
+                  BALANCING • DYNAMIC G2.5
+                </div>
+
+                <div className="absolute -bottom-1 -right-1 sm:-bottom-3 sm:-right-3 bg-[#0F3B36]/95 backdrop-blur-md border border-emerald-500/30 px-3 py-1.5 rounded-lg shadow-lg text-[9px] font-mono font-bold tracking-wider text-emerald-400 uppercase flex items-center gap-1.5 select-none hover:border-emerald-400 transition-colors duration-300">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  METALLURGY • SG IRON / MN STEEL
+                </div>
+
+                <div className="absolute bottom-12 -left-2 sm:-left-6 bg-slate-950/90 backdrop-blur-md border border-white/10 px-3 py-1.5 rounded-lg shadow-lg text-[8px] sm:text-[9px] font-mono font-bold tracking-wider text-slate-300 uppercase flex items-center gap-1.5 select-none hover:border-white/20 transition-colors duration-300">
+                  ESTD 1998 • PREMIUM GRADE
+                </div>
+              </div>
             </div>
           </div>
         </div>
