@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Ajanta Enterprises Catalog Website
 
-# Run and deploy your AI Studio app
+A premium React + Vite catalog application for Ajanta Enterprises, presenting spare parts, industrial components, and laboratory equipment for modern rice mills.
 
-This contains everything you need to run your app locally.
+## Features
+- **Featured Parts Gallery**: Dynamic scrollable preview of catalog components.
+- **Product Filtering**: Sieve parts, silky rollers, elevators, and lab diagnostics category filter tabs.
+- **Click-to-Zoom Detail Modal**: Instant high-resolution diagram inspection.
+- **Responsive Layout**: Designed for mobile and desktop screens.
 
-View your app in AI Studio: https://ai.studio/apps/26e93328-a650-4814-bc0f-f5db1d545463
+## Getting Started
 
-## Run Locally
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-**Prerequisites:**  Node.js
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
