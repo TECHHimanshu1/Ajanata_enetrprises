@@ -72,6 +72,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       description: 'Rubber rolls, couplings, and polishers designed for clean friction-free husking.',
       icon: Disc,
       tag: 'Rubber Rolls, Husker Couplings, Duraflex Polishers',
+      imageSrc: '/extracted_rubber_roll_rubber_roll.png',
     },
     {
       id: 'whitener',
@@ -79,6 +80,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       description: 'Abrasive rollers, hardened screens (Jalli), star plates, and premium feed screws.',
       icon: Settings,
       tag: 'Abrasive Rollers, Screens, Main Shafts, Screws',
+      imageSrc: '/extracted_whitening__abrasive_rollers.png',
     },
     {
       id: 'silky',
@@ -86,6 +88,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       description: 'Mirror-finish stainless steel milling rolls, screens, housings, and atomization mist nozzles.',
       icon: Wrench,
       tag: 'Milling Rolls, Silky Screens, Nozzles, Frames',
+      imageSrc: '/extracted_buhler_silky_milling_roll.png',
     },
     {
       id: 'elevator',
@@ -93,6 +96,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       description: 'Industrial PVC & steel elevator buckets, nylon cotton belts, Garlon threads, and rare-earth magnets.',
       icon: ArrowUpCircle,
       tag: 'Buckets, Cotton Belts, Garlon Threads, Magnets',
+      imageSrc: '/extracted_buckets_belt.png',
     },
     {
       id: 'laboratory',
@@ -100,6 +104,7 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
       description: 'Diagnostic benchtop testing aspirators, driers, splitters, huskers, and thickness graders.',
       icon: FlaskConical,
       tag: 'Lab Aspirators, Lab Driers, Lab Huskers, Sizers',
+      imageSrc: '/extracted_lab-grader_with.png',
     },
   ];
 
@@ -389,39 +394,48 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
             See Entire Catalog ({products.length} Items)
             <ArrowRight className="w-4 h-4" />
           </button>
-        </div>        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-0 md:gap-y-0 select-none editorial-matrix bg-white">
+        </div>        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-0 md:gap-y-0 select-none editorial-matrix bg-white border border-slate-200">
           {categories.slice(0, 5).map((category, index) => {
             const IconComponent = category.icon;
             return (
               <div 
                 key={category.id}
                 onClick={() => handleCategoryNavigate(category.id)}
-                className="bg-white p-8 hover:bg-[#0F3B36]/5 transition-all duration-300 flex flex-col h-full group cursor-pointer text-left relative"
+                className="bg-white hover:bg-[#0F3B36]/5 transition-all duration-300 flex flex-col h-full group cursor-pointer text-left relative overflow-hidden"
               >
-                <div className="flex justify-between items-start mb-6">
-                  <span className="text-[10px] uppercase font-bold text-[#F59E0B] tracking-widest font-mono">
-                    0{index + 1}
-                  </span>
-                  <div className="w-10 h-10 bg-[#0F3B36]/5 text-[#1B5E4A] flex items-center justify-center rounded-none group-hover:bg-[#1B5E4A]/10 transition-colors">
-                    <IconComponent className="w-5 h-5 text-[#F59E0B]" />
+                {/* Category Product Image Header */}
+                <div className="h-44 bg-slate-50 border-b border-slate-100 flex items-center justify-center p-6 relative overflow-hidden group-hover:bg-slate-100 transition-colors duration-300">
+                  <img 
+                    src={category.imageSrc} 
+                    alt={category.title}
+                    className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500 pointer-events-none"
+                  />
+                  <div className="absolute top-4 right-4 w-8 h-8 bg-white text-[#1B5E4A] flex items-center justify-center rounded-full border border-slate-100 shadow-xs group-hover:bg-[#0F3B36] group-hover:text-white transition-colors duration-300">
+                    <IconComponent className="w-4 h-4 text-[#F59E0B]" />
                   </div>
+                  <span className="absolute bottom-4 left-4 text-[10px] uppercase font-bold text-[#F59E0B] tracking-widest font-mono bg-[#0F3B36] px-2.5 py-0.5 rounded-sm shadow-xs border border-[#F59E0B]/20">
+                    Division 0{index + 1}
+                  </span>
                 </div>
                 
-                <div className="space-y-3 flex-grow">
-                  <h4 className="text-xl font-bold text-[#0F3B36] group-hover:text-[#1B5E4A] font-display transition-colors leading-snug">
-                    {category.title}
-                  </h4>
-                  <p className="text-xs text-slate-500 font-sans leading-relaxed">
-                    {category.description}
-                  </p>
-                </div>
-
-                <div className="mt-8 space-y-4 pt-4 border-t border-slate-100">
-                  <div className="text-[10px] text-slate-400 font-sans font-medium line-clamp-1">
-                    Includes: {category.tag}
+                {/* Text Content */}
+                <div className="p-8 pt-6 flex-grow flex flex-col justify-between">
+                  <div className="space-y-3">
+                    <h4 className="text-xl font-bold text-[#0F3B36] group-hover:text-[#1B5E4A] font-display transition-colors leading-snug">
+                      {category.title}
+                    </h4>
+                    <p className="text-xs text-slate-500 font-sans leading-relaxed">
+                      {category.description}
+                    </p>
                   </div>
-                  <div className="flex items-center gap-1 text-xs font-bold text-[#1B5E4A] group-hover:text-[#F59E0B] transition-colors">
-                    <span className="uppercase tracking-widest text-[10px]">Browse Division &rarr;</span>
+
+                  <div className="mt-6 space-y-4 pt-4 border-t border-slate-100">
+                    <div className="text-[10px] text-slate-400 font-sans font-medium line-clamp-1">
+                      Includes: {category.tag}
+                    </div>
+                    <div className="flex items-center gap-1 text-xs font-bold text-[#1B5E4A] group-hover:text-[#F59E0B] transition-colors">
+                      <span className="uppercase tracking-widest text-[10px]">Browse Division &rarr;</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -431,24 +445,38 @@ export default function HomeSection({ setActivePage, products, onSelectCategory 
           {/* Quick Custom inquiry card */}
           <div 
             onClick={() => setActivePage('contact')}
-            className="bg-[#0F3B36] p-8 text-white flex flex-col justify-between items-start group cursor-pointer text-left relative overflow-hidden h-full"
+            className="bg-[#0F3B36] hover:bg-[#0F3B36]/95 transition-all duration-300 flex flex-col h-full group cursor-pointer text-left relative overflow-hidden border-t border-[#1B5E4A]"
           >
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#1B5E4A] rounded-full blur-[45px] opacity-25" />
-            
-            <div className="space-y-3 relative z-10">
-              <span className="text-[10px] uppercase font-bold tracking-widest text-[#F59E0B] block font-mono">
-                SPECIFICATION MATCHING
+            {/* Blueprint image header */}
+            <div className="h-44 relative overflow-hidden border-b border-[#1B5E4A]">
+              <img 
+                src="/blueprint_schematic.png" 
+                alt="Specification Blueprint"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 pointer-events-none"
+              />
+              <div className="absolute inset-0 bg-[#0F3B36]/50 group-hover:bg-[#0F3B36]/40 transition-colors" />
+              <span className="absolute bottom-4 left-4 text-[10px] uppercase font-bold text-[#F59E0B] tracking-widest font-mono bg-[#0F3B36] px-2.5 py-0.5 rounded-sm shadow-xs border border-[#F59E0B]/20">
+                Custom OEM Sizing
               </span>
-              <h4 className="text-2xl font-bold tracking-tight font-display text-white italic">
-                Need OEM <br />Dimensions?
-              </h4>
-              <p className="text-xs text-slate-300 leading-relaxed font-sans max-w-xs">
-                Provide our metallurgy engineers with your custom drawing or alignment dimensions, and we will formulate exact matching spare parts.
-              </p>
             </div>
 
-            <div className="flex items-center gap-1 font-bold text-[#F59E0B] text-xs uppercase tracking-widest group-hover:text-white transition-colors pt-8 relative z-10">
-              <span>Send Query &rarr;</span>
+            {/* Content Section */}
+            <div className="p-8 pt-6 flex-grow flex flex-col justify-between text-white relative z-10">
+              <div className="space-y-3">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-[#F59E0B] block font-mono">
+                  SPECIFICATION MATCHING
+                </span>
+                <h4 className="text-xl font-bold tracking-tight font-display text-white leading-snug">
+                  Need Custom OEM Sizing?
+                </h4>
+                <p className="text-xs text-slate-300 leading-relaxed font-sans">
+                  Provide our metallurgy engineers with your custom drawing or alignment dimensions, and we will formulate exact matching spare parts.
+                </p>
+              </div>
+
+              <div className="mt-6 flex items-center gap-1 font-bold text-[#F59E0B] text-xs uppercase tracking-widest group-hover:text-white transition-colors pt-4 border-t border-[#1B5E4A]">
+                <span>Send Query &rarr;</span>
+              </div>
             </div>
           </div>
         </div>
