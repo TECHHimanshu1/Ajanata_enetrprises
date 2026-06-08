@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;650;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Georgia", "Times New Roman", ui-serif, serif;
+}
+
+/* Common high-quality custom B2B layout transitions */
+@layer utilities {
+  .animate-slide-in-right {
+    animation: slideInRight 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  
+  .animate-scale {
+    animation: scaleIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+
+  /* Editorial Industrial Grid Styles */
+  .editorial-matrix {
+    border-top: 1px solid rgba(15, 59, 54, 0.12);
+    border-left: 1px solid rgba(15, 59, 54, 0.12);
+  }
+  
+  .editorial-matrix > div {
+    border-right: 1px solid rgba(15, 59, 54, 0.12);
+    border-bottom: 1px solid rgba(15, 59, 54, 0.12);
+  }
+
+  .editorial-border {
+    border: 1px solid rgba(15, 59, 54, 0.12);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scroll bar style for modern catalog list drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Selection aesthetics */
+::selection {
+  background-color: rgba(245, 158, 11, 0.25);
+  color: #0F3B36;
+}

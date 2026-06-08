@@ -1,0 +1,6 @@
+{
+  "name": "Ajanta Enterprises",
+  "description": "Premium Rice Mill Machinery Spare Parts, Industrial Components & Laboratory Equipment supplier since 1998.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
